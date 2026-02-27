@@ -1,0 +1,20 @@
+[project]
+name = "mldeployment"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy",
+  "onnxruntime==1.23.2",
+  "optimum[onnxruntime]",
+  "torch",
+  "transformers",
+  "locust",
+  "fastapi",
+  "pydantic",
+  "uvicorn",
+  "tritonclient",
+  "certifi",
+  "apache-beam[gcp]",
+  "google-crc32c",
+]
